@@ -1,4 +1,4 @@
-# Project Overview: OAN-Seeker-Service
+i# Project Overview: OAN-Seeker-Service
 
 ## Introduction
 **OAN-Seeker-Service** is a specialized middleware application designed for the ONDC (Open Network for Digital Commerce) ecosystem. It functions as a "Seeker" node, responsible for discovering, aggregating, and serving data from the decentralized network to frontend client applications.
