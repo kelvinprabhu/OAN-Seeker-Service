@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Project Documentation
+*   [**Overview**](docs/OVERVIEW.md): High-level summary and tech stack.
+*   [**Architecture**](docs/ARCHITECTURE.md): Detailed logic flows and folder structure.
+*   [**API Services**](docs/API_SERVICES.md): Comprehensive list of endpoints and how to run them.
+*   [**Onboarding Guide**](docs/ONBOARDING.md): Setup instructions and common pitfalls.
+
 ## Installation
 
 ```bash
