@@ -9,7 +9,7 @@ Welcome to the **OAN-Seeker-Service**! This guide will help you set up your envi
 
 ## Installation
 
-1.  **Clone the repository**:
+1.  **Clone the repository**:****
     ```bash
     git clone <repo-url>
     cd OAN-Seeker-Service
@@ -91,3 +91,10 @@ The `jobs.service.ts` file contains methods like `generateQuery` that manually c
 
 ### 4. Telemetry
 Telemetry is handled via raw inserts into `JOBS_TELEMETRY_DB`. Ensure this table exists in your local Hasura instance, or analytics calls will fail.
+
+## Troubleshooting
+
+### Error: `/bin/sh: 1: Syntax error: "(" unexpected`
+If you see this error when running `npm run start`, it is likely because your project path contains **parentheses** (e.g., `Projects(COSS)`).
+*   **Cause**: The Linux shell in WSL interprets `(` and `)` as special commands.
+*   **Fix**: Rename your parent folder to remove special characters (e.g., rename `Projects(COSS)` to `Projects-COSS`).
